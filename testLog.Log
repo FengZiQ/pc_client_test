@@ -1,0 +1,28 @@
+2019-02-22 09:35:52: 
+交易记录测试
+2019-02-22 09:34:55: 
+交易记录测试
+2019-02-22 09:32:18: 
+交易记录测试
+2019-02-22 09:29:03: 
+交易记录测试
+2019-02-22 09:28:41: 响应数据：
+{'code': 'SUCCESS', 'msg': 'SUCCESS', 'transaction_detail': []}
+2019-02-22 09:28:41: 5. 无交易记录
+2019-02-22 09:28:27: 响应数据：
+{'pay_summary': [{'pay_type': 'WXPAY', 'total_pay_count': 99999, 'total_pay_fee': 9999900}, {'pay_type': 'ALIPAY', 'total_pay_count': 99999, 'total_pay_fee': 9999900}], 'total_pay_amt': 19999800, 'total_pay_count': 199998}
+2019-02-22 09:28:27: 4. 有效等价值
+2019-02-22 09:28:01: 响应数据：
+{'pay_summary': [{'pay_type': 'WXPAY', 'total_pay_count': 1, 'total_pay_fee': 1}, {'pay_type': 'ALIPAY', 'total_pay_count': 1, 'total_pay_fee': 1}], 'total_pay_amt': 2, 'total_pay_count': 2}
+2019-02-22 09:28:01: 3. 边界最小值
+2019-02-22 09:27:36: 响应数据：
+{'pay_summary': [{'pay_type': 'WXPAY', 'total_pay_count': 3147483647, 'total_pay_fee': 3147483647}, {'pay_type': 'ALIPAY', 'total_pay_count': 3147483647, 'total_pay_fee': 3147483647}], 'total_pay_amt': 3147483647, 'total_pay_count': 3147483647}
+2019-02-22 09:27:36: 2. 超过客户端所用数据类型支持的最大值时，客户端无cash
+2019-02-22 09:26:49: 响应数据：
+{'pay_summary': [{'pay_type': 'WXPAY', 'total_pay_count': 2147483647, 'total_pay_fee': 2147483647}, {'pay_type': 'ALIPAY', 'total_pay_count': 2147483647, 'total_pay_fee': 2147483647}], 'total_pay_amt': 2147483647, 'total_pay_count': 2147483647}
+2019-02-22 09:26:49: 1. 客户端所用数据类型支持的最大值
+2019-02-22 09:26:49: 请求body:
+{'bill_begin_time': '20190222000000', 'bill_create_ip': '192.168.241.1', 'bill_end_time': '20190222235959', 'details': 'TRUE', 'device_no': '9020180300100201', 'nonce_str': '123456', 'sign': 'E09A0AF46E94EC688A3F836E05A8564A'}
+
+2019-02-22 09:26:49: 
+交易汇总测试:

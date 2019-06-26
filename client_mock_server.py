@@ -207,4 +207,5 @@ def bill_query():
         }
 
 
-bottle.run(host='192.168.20.94', port=8886)
+# 192.168.20.94
+bottle.run(host='localhost', port=8886)
